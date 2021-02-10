@@ -1,0 +1,32 @@
+{   
+    "cards": [
+        {
+            "cardhld": "Janne Jansson",
+            "cardnr": 1234567891011121,
+            "date": 7779,
+            "ccv": 222,
+            "vendor": "Evil"
+        },
+        {
+            "cardhld": "Kalle Karlsson",
+            "cardnr": 1334567891011121,
+            "date": 7865,
+            "ccv": 111,
+            "vendor": "Bitcoin"
+        },
+        {
+            "cardhld": "Svenne Banan",
+            "cardnr": 1734567891011121,
+            "date": 6789,
+            "ccv": 444,
+            "vendor": "Blockchain"
+        },
+        {
+            "cardhld": "Namn Namnsson",
+            "cardnr": 1834567891011121,
+            "date": 2248,
+            "ccv": 333,
+            "vendor": "Ninja"
+        }
+    ]
+}
