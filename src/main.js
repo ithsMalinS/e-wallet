@@ -9,9 +9,9 @@ import cardsData from '@/assets/cards.json'
 new Vue({
 
   data(){return {
-    cards: cardsData.cards
+    cards: cardsData.cards,
+    newCard: {}
   }},
-
   router,
   render: h => h(App)
 }).$mount('#app')

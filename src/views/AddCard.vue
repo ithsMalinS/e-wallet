@@ -21,22 +21,19 @@ export default {
   },
   data(){return{
     emptyCard: {
-      cardnr: '',
-      cardhld: '',
-      valid: '',
+      cardnr: 'xxxxxxxxxxxxxxxx',
+      cardhld: 'Firstname Lastname',
+      valid: 'MMYY',
       ccv: '',
-      vendor: 'Bitcoin'
+      vendor: ''
     }
   }},
-  method: {
+  methods: {
     update(card){
-      console.log(card)
-      this.emptyCard.cardnr = card.cardnr
+      this.emptyCard = card
     },
     newCard(card){
-      console.log('submitted in addcard')
-      console.log(card)
-      //this.$emit('newCard', card)
+      this.$root.cards.push(card)
     }
   }
 }

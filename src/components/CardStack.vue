@@ -8,9 +8,6 @@
             v-on:clickedCard="updateCard"
         />
         </div>
-        
-        <router-link to="/addcard">ADD A NEW CARD</router-link> 
-
     </div>
 </template>
 
@@ -48,19 +45,6 @@ export default {
 }
 .wrapper > div > *{
     margin-top: -17em;
-}
-a{
-    font-size: 1.5em;
-    font-weight: 600;
-    padding: 20px 0;
-    width: 420px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    border: 3px solid black;
-    border-radius: 8px;
-    cursor: pointer;
 }
 
 </style>
